@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="flex justify-center items-center lg:h-screen bg-[rgb(255,121,120)] bg-[url(/images/bg-intro-desktop.png)] bg-cover bg-center">
+   <div class="grid grid-rows-1 lg:grid-cols-2  gap-4">
+        <div class="text-white mt-30 lg:mt-30 text-center lg:text-left">
+            <h1 class="text-7xl lg:text-5xl font-bold mb-10 lg:mb-7">Learn to code by <br> watching others</h1>
+            <p class="text-3xl lg:text-sm font-normal mb-30 lg:mb-0 lg:font-semibold"> See how experienced developers solve problems in real-time. <br>
+               Watching scripted tutorials is great,but understanding how <br>
+              developers think is invaluable.
+            </p>
+        </div>
+        <div class="grid grid-cols gap-4">
+          <div class="text-white text-center text-4xl lg:text-sm bg-[rgb(93,84,163)] shadow-lg shadow-black lg:shadow-none p-13 lg:p-4 mb-10 lg:mb-0 rounded-2xl">
+            <h2><span class="font-bold block lg:inline">Try it free 7 days</span> then $20/mo. thereafter</h2>
+          </div>
+          <div class="bg-white p-4 rounded-lg p-8 mb-20 lg:mb-0">
+            <form class="grid grid-cols gap-4">
+              <input type="text" class="border-2 w-full border-gray-100 text-4xl lg:text-sm rounded-2xl lg:rounded-lg p-12 lg:p-3 font-semibold" placeholder="First Name">
+              <input type="text" class="border-2 w-full border-gray-100 text-4xl lg:text-sm rounded-2xl lg:rounded-lg p-12 lg:p-3 font-semibold" placeholder="Last Name">
+              <input type="email" class="border-2 w-full border-gray-100 text-4xl lg:text-sm rounded-2xl lg:rounded-lg p-12 lg:p-3 font-semibold" placeholder="Email Address">
+              <input type="password" class="border-2 w-full border-gray-100 text-4xl lg:text-sm rounded-2xl lg:rounded-lg p-12 lg:p-3 font-semibold" placeholder="Password">
+              <button class="bg-[rgb(55,203,135)] text-white uppercase text-4xl lg:text-sm rounded-lg p-12 lg:p-4 font-semibold lg:font-bold">Claim your free trial</button>
+              <div class="text-center ml-20  lg:ml-0 w-120 lg:w-100">
+                <p class="text-gray-400   text-2xl lg:text-xs">By clicking the button, you are agreeing to our <a class="text-red-400 lg:text-red-300 font-bold lg:font-normal" href="#">Terms and Services</a></p>
+              </div>
+            </form>
+          </div>
+        </div>
+   </div>
+  </div>
+   <br>
+
+  <!-- Learn to code by watching others -->
+
+  <!-- See how experienced developers solve problems in real-time. Watching scripted tutorials is great,  -->
+  <!-- but understanding how developers think is invaluable.  -->
+
+  <!-- Try it free 7 days then $20/mo. thereafter -->
+
+  <!-- First Name  -->
+  <!-- Last Name  -->
+  <!-- Email Address -->
+  <!-- Password -->
+
+  <!-- Claim your free trial  -->
+
+  <!-- By clicking the button, you are agreeing to our Terms and Services -->
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Salam Jean-Louis</a>.
+    </p>
+  </footer>
+</body>
+</html>
